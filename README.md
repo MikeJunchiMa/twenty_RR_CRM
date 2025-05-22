@@ -1,4 +1,3 @@
-
 <br />
 <p align="center">
   <a href="https://www.twenty.com">
@@ -11,7 +10,6 @@
 <p align="center"><a href="https://twenty.com">🌐 Website</a> · <a href="https://twenty.com/developers">📚 Documentation</a> · <a href="https://github.com/orgs/twentyhq/projects/1"><img src="./packages/twenty-website/public/images/readme/planner-icon.svg" width="12" height="12"/> Roadmap </a> · <a href="https://discord.gg/cx5n4Jzs57"><img src="./packages/twenty-website/public/images/readme/discord-icon.svg" width="12" height="12"/> Discord</a> · <a href="https://www.figma.com/file/xt8O9mFeLl46C5InWwoMrN/Twenty"><img src="./packages/twenty-website/public/images/readme/figma-icon.png"  width="12" height="12"/>  Figma</a></p>
 <br />
 
-
 <p align="center">
   <a href="https://www.twenty.com">
     <picture>
@@ -22,9 +20,41 @@
   </a>
 </p>
 
+## Automated contact capture
+
+Automatically create contacts from emails or incoming calls using Outlook and RingCentral integrations.
+
+## Calendar and task integration
+
+Sync tasks with external calendars like Google or Outlook and receive reminders directly in Twenty.
+
+## Opportunity stage automation
+
+Trigger follow‑up tasks whenever an opportunity moves to a new stage.
+
+## RFQ and quote tracking
+
+Manage quotes with versioning and status updates.
+
+## Analytics and dashboards
+
+Visualize pipeline metrics and task completion rates with built‑in dashboards.
+
+## Mobile accessibility
+
+A simplified mobile interface keeps field reps productive on the go.
+
+## Import & export enhancements
+
+Bulk import and export records to streamline large data updates.
+
+## Role-based permissions
+
+Control who can view or modify records with fine‑grained permissions.
+
 <br />
 
-# Installation 
+# Installation
 
 See:
 🚀 [Self-hosting](https://twenty.com/developers/section/self-hosting)
@@ -57,18 +87,26 @@ We built Twenty for three reasons:
 <br />
 
 # What You Can Do With Twenty
-We're currently developing Twenty's beta version.  
 
-Please feel free to flag any specific needs you have by creating an issue.   
+We're currently developing Twenty's beta version.
+
+Please feel free to flag any specific needs you have by creating an issue.
 
 Below are a few features we have implemented to date:
 
-+ [Add, filter, sort, edit, and track customers](#add-filter-sort-edit-and-track-customers)
-+ [Create one or several opportunities for each company](#create-one-or-several-opportunities-for-each-company)
-+ [See rich notes tasks displayed in a timeline](#see-rich-notes-tasks-displayed-in-a-timeline)
-+ [Create tasks on records](#create-tasks-on-records)
-+ [Navigate quickly through the app using keyboard shortcuts and search](#navigate-quickly-through-the-app-using-keyboard-shortcuts-and-search)
-
+- [Add, filter, sort, edit, and track customers](#add-filter-sort-edit-and-track-customers)
+- [Create one or several opportunities for each company](#create-one-or-several-opportunities-for-each-company)
+- [See rich notes tasks displayed in a timeline](#see-rich-notes-tasks-displayed-in-a-timeline)
+- [Create tasks on records](#create-tasks-on-records)
+- [Navigate quickly through the app using keyboard shortcuts and search](#navigate-quickly-through-the-app-using-keyboard-shortcuts-and-search)
+- [Automated contact capture from email and calls](#automated-contact-capture)
+- [Calendar and task syncing with reminders](#calendar-and-task-integration)
+- [Opportunity stage automation](#opportunity-stage-automation)
+- [RFQ and quote tracking](#rfq-and-quote-tracking)
+- [Analytics dashboards](#analytics-and-dashboards)
+- [Mobile access](#mobile-accessibility)
+- [Bulk data import/export](#import-export-enhancements)
+- [Role-based permissions](#role-based-permissions)
 
 ## Add, filter, sort, edit, and track customers:
 
@@ -150,16 +188,14 @@ Below are a few features we have implemented to date:
     </picture>
 </p>
 
-
 <br />
 
 # Stack
+
 - [TypeScript](https://www.typescriptlang.org/)
 - [Nx](https://nx.dev/)
 - [NestJS](https://nestjs.com/), with [BullMQ](https://bullmq.io/), [PostgreSQL](https://www.postgresql.org/), [Redis](https://redis.io/)
 - [React](https://reactjs.org/), with [Recoil](https://recoiljs.org/), [Emotion](https://emotion.sh/) and [Lingui](https://lingui.dev/)
-
-
 
 # Thanks
 
@@ -170,18 +206,13 @@ Below are a few features we have implemented to date:
   <a href="https://crowdin.com/"><img src="./packages/twenty-website/public/images/readme/crowdin.png" height="30" alt="Crowdin" /></a>
 </p>
 
-  Thanks to these amazing services that we use and recommend for UI testing (Chromatic), code review (Greptile), catching bugs (Sentry) and translating (Crowdin).
-
+Thanks to these amazing services that we use and recommend for UI testing (Chromatic), code review (Greptile), catching bugs (Sentry) and translating (Crowdin).
 
 # Join the Community
 
 - Star the repo
 - Subscribe to releases (watch -> custom -> releases)
-- Follow us on [Twitter](https://twitter.com/twentycrm) or [LinkedIn](https://www.linkedin.com/company/twenty/) 
+- Follow us on [Twitter](https://twitter.com/twentycrm) or [LinkedIn](https://www.linkedin.com/company/twenty/)
 - Join our [Discord](https://discord.gg/cx5n4Jzs57)
-- Improve translations on [Crowdin](https://twenty.crowdin.com/twenty) 
-- [Contributions](https://github.com/twentyhq/twenty/contribute) are, of course, most welcome! 
-
-
-
-
+- Improve translations on [Crowdin](https://twenty.crowdin.com/twenty)
+- [Contributions](https://github.com/twentyhq/twenty/contribute) are, of course, most welcome!

@@ -332,6 +332,14 @@ export const OPPORTUNITY_STANDARD_FIELD_IDS = {
   searchVector: '428a0da5-4b2e-4ce3-b695-89a8b384e6e3',
 };
 
+export const QUOTE_STANDARD_FIELD_IDS = {
+  name: '20202020-8e53-4bb3-b453-38f86c370dce',
+  amount: '20202020-3ca0-4c10-97da-9f243f713792',
+  version: '20202020-cde5-42ae-b233-c03726cdc1f7',
+  status: '20202020-885c-4bf4-9ec0-9dda72ce8e92',
+  createdBy: '20202020-5523-406a-b8ca-9ea37e05c38f',
+};
+
 export const PERSON_STANDARD_FIELD_IDS = {
   name: '20202020-3875-44d5-8c33-a6239011cab8',
   email: '20202020-a740-42bb-8849-8980fb3f12e1',
@@ -568,6 +576,7 @@ export const STANDARD_OBJECT_FIELD_IDS = {
   message: MESSAGE_STANDARD_FIELD_IDS,
   note: NOTE_STANDARD_FIELD_IDS,
   noteTarget: NOTE_TARGET_STANDARD_FIELD_IDS,
+  quote: QUOTE_STANDARD_FIELD_IDS,
   opportunity: OPPORTUNITY_STANDARD_FIELD_IDS,
   person: PERSON_STANDARD_FIELD_IDS,
   task: TASK_STANDARD_FIELD_IDS,

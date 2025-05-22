@@ -11,6 +11,7 @@ import { FieldMetadataDefaultOption } from 'src/engine/metadata-modules/field-me
 export enum FieldActorSource {
   EMAIL = 'EMAIL',
   CALENDAR = 'CALENDAR',
+  TELEPHONY = 'TELEPHONY',
   WORKFLOW = 'WORKFLOW',
   API = 'API',
   IMPORT = 'IMPORT',
