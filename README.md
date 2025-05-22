@@ -26,9 +26,23 @@
 
 # Installation 
 
-See:  
-🚀 [Self-hosting](https://twenty.com/developers/section/self-hosting)  
-🖥️ [Local Setup](https://twenty.com/developers/local-setup)  
+See:
+🚀 [Self-hosting](https://twenty.com/developers/section/self-hosting)
+🖥️ [Local Setup](https://twenty.com/developers/local-setup)
+
+## Offline setup
+
+If your environment loses network access after the initial setup, make sure all
+dependencies are installed beforehand. Run the script below while network access
+is still available:
+
+```bash
+./scripts/setup-offline.sh
+```
+
+The script installs project dependencies with `yarn` and downloads Playwright
+browsers used by the E2E tests. After running it, subsequent commands can execute
+without requiring internet access.
 
 # Does the world need another CRM?
 
