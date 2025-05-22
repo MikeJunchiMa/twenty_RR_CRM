@@ -4,5 +4,7 @@ export const STANDARD_OBJECTS_BY_PRIORITY_RANK = {
   company: 4,
   opportunity: 3,
   note: 2,
+  shipment: 3,
+  truck: 2,
   task: 1,
 };

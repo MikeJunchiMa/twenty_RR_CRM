@@ -41,4 +41,6 @@ export const STANDARD_OBJECT_ICONS = {
   workflowVersion: 'IconVersions',
   workflowAutomatedTrigger: 'IconSettingsAutomation',
   workspaceMember: 'IconUserCircle',
+  truck: 'IconTruck',
+  shipment: 'IconPackage',
 };
