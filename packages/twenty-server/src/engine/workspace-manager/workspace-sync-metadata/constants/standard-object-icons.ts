@@ -23,6 +23,7 @@ export const STANDARD_OBJECT_ICONS = {
   message: 'IconMessage',
   note: 'IconNotes',
   noteTarget: 'IconCheckbox',
+  quote: 'IconFileText',
   opportunity: 'IconTargetArrow',
   person: 'IconUser',
   task: 'IconCheckbox',
