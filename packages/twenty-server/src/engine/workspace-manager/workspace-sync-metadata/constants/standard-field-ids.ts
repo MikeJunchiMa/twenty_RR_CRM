@@ -542,6 +542,29 @@ export const CUSTOM_OBJECT_STANDARD_FIELD_IDS = {
   searchVector: '70e56537-18ef-4811-b1c7-0a444006b815',
 };
 
+export const TRUCK_STANDARD_FIELD_IDS = {
+  name: '53b2d99c-0b46-490f-852c-0d2483b5d407',
+  licensePlate: '11277d1e-ad86-4665-a030-41cadcc60ae2',
+  capacity: '345f7bc1-7deb-4180-b863-e08935bddb52',
+  status: '2ffaa6f6-ef05-4a59-a8d5-892907506cd7',
+  shipments: '7766ec43-09a6-4bf2-8582-5c85de3e077f',
+  searchVector: '8d6123eb-52b8-47bb-8f69-5db7dd34e928',
+};
+
+export const SHIPMENT_STANDARD_FIELD_IDS = {
+  trackingNumber: '0189025c-67ad-42f6-bd82-7a0c3890657e',
+  originAddress: '5bb03a5a-8834-4a64-849b-e8c00d2caf7f',
+  destinationAddress: 'e0b97091-4c4a-46c9-b177-ec63234798d1',
+  weight: '5d95afa7-45f8-4ed4-9888-fce7bce5aa4e',
+  status: '877bad61-44cb-42f4-a35d-c8afe6ea2657',
+  company: 'f36a1ed8-0df6-4807-aee4-993ecf3969dd',
+  truck: 'e160c94e-b717-4a34-a893-da50aef7ebc8',
+  attachments: 'fd5c05b1-3ceb-4303-866e-f75f14882cbb',
+  timelineActivities: 'c225dc90-03fb-4277-8718-7ddcc7ab7bae',
+  createdBy: 'db9b4418-fadf-4709-91e3-1266687eb790',
+  searchVector: '77cc71d8-1d34-4199-acea-7f9be1713399',
+};
+
 export const STANDARD_OBJECT_FIELD_IDS = {
   activityTarget: ACTIVITY_TARGET_STANDARD_FIELD_IDS,
   activity: ACTIVITY_STANDARD_FIELD_IDS,
@@ -583,4 +606,6 @@ export const STANDARD_OBJECT_FIELD_IDS = {
   workflowRun: WORKFLOW_RUN_STANDARD_FIELD_IDS,
   workflowVersion: WORKFLOW_VERSION_STANDARD_FIELD_IDS,
   workspaceMember: WORKSPACE_MEMBER_STANDARD_FIELD_IDS,
+  truck: TRUCK_STANDARD_FIELD_IDS,
+  shipment: SHIPMENT_STANDARD_FIELD_IDS,
 };
